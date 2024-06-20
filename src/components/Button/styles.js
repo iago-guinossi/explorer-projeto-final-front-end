@@ -6,4 +6,5 @@ export const Cointeiner = styled.button`
     border-radius: 10px;
     width: 100%;
     padding: 12px;
+    border: none;
 `
