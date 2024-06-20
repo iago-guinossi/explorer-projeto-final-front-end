@@ -5,7 +5,7 @@ import {Button} from "../../components/Button"
 
 import Icon from '../../assets/polygon.svg?react'
 
-export function Login(){
+export function Register(){
     return (
         <Container>
             <Title>
