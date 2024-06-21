@@ -1,12 +1,10 @@
-import { Register } from "./pages/Register"
-import { Login } from "./pages/Login"
-import { Header } from "./components/Header"
+import { Menu } from "./components/Menu"
 
 function App() {
 
   return (
     <>
-    <Header/>
+    <Menu/>
     </>
   )
 }
