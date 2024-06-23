@@ -4,12 +4,13 @@ export const Container = styled.div`
     width: 100%;
     text-align: start;
     > div {
-        margin-bottom: 8px;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
-        size: 16px;
-        color: ${({theme}) => theme.COLORS.LIGHT_400};
+        line-height:160%;
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: ${({ theme }) => theme.COLORS.LIGHT_400};
     }
 `
 
@@ -22,6 +23,11 @@ export const InputContainer = styled.div`
     border-radius: 10px;
 
     > input {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height:160%;
+        font-size: 16px;
         height: 36px;
         width: 100%;
         padding: 12px;
