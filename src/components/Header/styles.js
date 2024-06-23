@@ -6,7 +6,8 @@ export const Container = styled.div`
     background-color: ${({theme}) => theme.COLORS.DARK_700};
     display: flex;
     padding-top: 60px;
-    justify-content: space-around;
+    padding: 56px 28px 24px;
+    justify-content: space-between;
     align-items: center;
 `
 
