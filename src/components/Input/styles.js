@@ -3,7 +3,8 @@ import styled from 'styled-components'
 export const Container = styled.div`
     width: 100%;
     text-align: start;
-    > div {
+    > span {
+        display: block;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -28,7 +29,7 @@ export const InputContainer = styled.div`
         font-style: normal;
         line-height:160%;
         font-size: 16px;
-        height: 36px;
+        height: 48px;
         width: 100%;
         padding: 12px;
         color: ${({ theme }) => theme.COLORS.LIGHT_100};
