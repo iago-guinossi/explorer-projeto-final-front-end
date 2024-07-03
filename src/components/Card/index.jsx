@@ -4,6 +4,7 @@ import {
   ButtonsContainer,
   Container,
   FoodImg,
+  FoodInfo,
   FoodName,
   FoodPrice,
 } from "./style";
@@ -20,6 +21,7 @@ export function Card() {
       <HeartIcon />
       <FoodImg src={imgSalada} />
       <FoodName>Salada Ravanello &gt;</FoodName>
+      <FoodInfo>Rabanetes, folhas verdes e molho agridoce salpicado com gergelim.</FoodInfo>
       <FoodPrice>R$ 49,97</FoodPrice>
       <ButtonsContainer>
         <AmountContainer>
